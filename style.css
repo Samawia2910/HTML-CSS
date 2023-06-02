@@ -1,0 +1,73 @@
+{
+margin: 0;
+padding: 0;
+}
+header{
+background-image: linear-gradient(rgba(0,0,0,0,5),rgba(0,0,0,0,5));
+height:130vh;
+background-size: cover;
+background-position: cover;
+}
+.nav-bar
+{
+background: rgb(0,0,0,0,5);
+height:80px;
+}
+.heading
+{
+float:left;
+font-size: medium;
+color: white;
+}
+.uetlogo
+{
+margin:1px 10px;
+height:110px;
+}
+.menu li{
+display: incline-block;
+margin: 10px 5px;
+}
+.menu li a{
+text-decoration: none;
+color: white;
+padding: 5px 10px;
+font-family: sans-serif;
+letter-spacing: 2px;
+border: 1px solid white;
+}
+.menu li a:hover{
+background: white;
+transition: .4s;
+color: black;
+}  
+.table{
+width:80%;
+height:10%;
+margin:auto;
+border:1px solid black;
+life-style:none;
+border-collapse:collapse;
+text-align:center;
+font-size:25px;
+table-layout:fixed;
+background: lightgoldenyellow;
+opacity:0.5;
+color: white;
+float: right;
+margin: 100px;
+}
+.table tr td:hover{
+background: lightslategrey;
+transition: .4s;
+color: white;
+}
+.gallery{
+float:left;
+list-style: none;
+margin:20px;
+color: white;
+}
+.gallery a{
+color: lightgreen;
+}
